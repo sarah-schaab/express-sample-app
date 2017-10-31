@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+      h2= prompt
+      if hint
+        p
+          i Hint: #{hint}
+      else
+        p
+          i "Theres no hint for this card! "
